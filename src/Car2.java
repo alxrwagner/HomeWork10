@@ -1,5 +1,5 @@
 public class Car2 {
-    
+
     private final String brand;
     private final String model;
     private final String color;
@@ -9,25 +9,25 @@ public class Car2 {
     private final float engineVolume;
 
     public Car2(String brand, String model, String color, String productionCountry, int productionYear, float engineVolume) {
-        if (brand.isBlank() || brand.equals(null)){
+        if (brand == null || brand.isBlank()){
             this.brand = "default";
         }else {
             this.brand = brand;
         }
 
-        if (model.isBlank() || model.equals(null)){
+        if (model == null || model.isBlank()){
             this.model = "default";
         }else {
             this.model = model;
         }
 
-        if (color.isBlank()|| color.equals(null)){
+        if (color == null || color.isBlank()){
             this.color = "Белый";
         }else {
             this.color = color;
         }
 
-        if (productionCountry.isBlank()|| productionCountry.equals(null)){
+        if (productionCountry == null || productionCountry.isBlank()){
             this.productionCountry = "default";
         }else {
             this.productionCountry = productionCountry;

@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        //task1();
-        //task2();
+        task1();
+        task2();
         task3();
     }
 
@@ -73,7 +73,7 @@ public class Main {
         Car2 audi = new Car2("Audi ", "A8 50 L TDI quattro", " ", "Германия", 0, 3.0f);
         Car2 bmw = new Car2("BMW", "Z8", "Черный", "Германия", 2021  , 0);
         Car2 kia = new Car2("Kia ", "Sportage 4-го поколения", "Красный", "Южная Корея", 2018 , 2.4f);
-        Car2 hyundai = new Car2("", " ", "", "",  0, 0);
+        Car2 hyundai = new Car2(null, " ", "", "",  0, 0);
 
         lada.printInfo();
         audi.printInfo();
